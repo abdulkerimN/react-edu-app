@@ -1,11 +1,13 @@
 import React from "react";
 import "./hero.css";
+import Title from "../../common/title/Title.jsx";
 const Hero = () => {
   return (
     <>
       <section className="hero">
         <div className="container">
           <div className="row">
+            <Title subtitle='welcomw to ACADEMIA' title='Best Online Education' />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum
               deserunt aperiam nihil sequi, distinctio provident velit quos
@@ -23,7 +25,6 @@ const Hero = () => {
           </div>
         </div>
       </section>
-      <div className="margin"></div>
     </>
   );
 };

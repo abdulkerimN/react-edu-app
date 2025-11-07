@@ -16,6 +16,7 @@
                         header {
                             background-color: rgba(255, 255, 255, 0.2);
                             margin: 0 30px;
+                            position: relative;
                         }
                         
                         header ul {
@@ -40,7 +41,7 @@
                             background-color: #1eb2a6;
                             padding: 30px 70px;
                             color: #fff;
-                            clip-path: polygon(10%, 0, 100% 0, 100%, 0 100%);
+                            clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
                         }
                         
                         .toggle {
@@ -67,14 +68,14 @@
                                 display: block;
                                 background: none;
                                 color: #fff;
-                                font-size: 25px;
+                                font-size: 35px;
                                 position: absolute;
                                 right: 50px;
-                                top: 30px;
+                                top: -25px;
                             }
                             .mobile-nav {
                                 position: absolute;
-                                top: 7vh;
+                                top: 6vh;
                                 left: 0;
                                 width: 100%;
                                 background-color: #1eb2a6;
