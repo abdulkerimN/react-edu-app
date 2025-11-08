@@ -143,3 +143,14 @@ p {
 .flex {
     display: grid;
 }
+
+@media screen and (max-width:768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .back {
+        background-position: center;
+        padding-top: 50%;
+        height: 80vh;
+    }
+}
