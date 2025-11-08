@@ -1,9 +1,11 @@
-import React from 'react'
-
+import React from "react";
+import Back from "../common/title/back/Back"
+import AboutCard from "./AboutCard"
 const About = () => {
   return (
     <div>
-      <h1>About</h1>
+      <Back title="About Us" />
+      <AboutCard />
     </div>
   )
 }
