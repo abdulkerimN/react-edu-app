@@ -5,6 +5,7 @@ import Home from './components/home/Home.jsx'
 import Title from './components/common/title/Title.jsx'
 import About from './components/about/About.jsx'
 import { BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import CourseHome from './components/allcourses/CourseHome.jsx'
 
 const App = () => {
   return (
@@ -15,8 +16,10 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route
             path="/title"
-            element={<Title subtitle="Hello" title="Welcome" />} />
-          <Route path='/about' element={<About />}/>
+            element={<Title subtitle="Hello" title="Welcome" />}
+          />
+          <Route path="/about" element={<About />} />
+          <Route path="/courses" element={<CourseHome />} />
         </Routes>
       </Router>
     </div>
