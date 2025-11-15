@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "../../common/title/Title";
 import { testimonal } from "../../../dummydata"; // adjust to { testimonial } if that's the exact export
-
+import "./style.css"
 const Testimonial = () => {
   return (
     <div>
@@ -14,8 +14,14 @@ const Testimonial = () => {
                 <div className="box flex">
                   <div className="img">
                     <img src={val.cover} alt={val.name} />
+                    <i className="fa fa-quote-left icon"></i>
                   </div>
+                <div className="name">
+                  <h2>{val.name}</h2>
+                  <span>{val.post}</span>
                 </div>
+                </div>
+                <p>{val.desc}</p>
               </div>
             ))}
           </div>
