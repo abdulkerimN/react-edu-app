@@ -9,6 +9,7 @@ import CourseHome from './components/allcourses/CourseHome.jsx'
 import Team from './components/team/Team.jsx'
 import Price from './components/pricing/Price.jsx'
 import Blog from './components/blog/Blog.jsx'
+import Contact from './components/contact/Contact.jsx'
 
 const App = () => {
   return (
@@ -25,7 +26,8 @@ const App = () => {
           <Route path="/courses" element={<CourseHome />} />
           <Route path="/team" element={<Team />} />
           <Route path="/pricing" element={<Price />} />
-          <Route path='/blog' element= {<Blog />}/>
+          <Route path="/journal" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </Router>
     </div>
