@@ -3,6 +3,7 @@ import Hero from './hero/Hero'
 import AboutCard from '../about/AboutCard'
 import Testimonial from './testimonial/Testimonial'
 import HAbout from './HAbout'
+import HBlog from './Hblog'
 const Home = () => {
   return (
     <div>
@@ -10,6 +11,7 @@ const Home = () => {
       <AboutCard />
       <HAbout />
       <Testimonial />
+      <HBlog />
     </div>
   )
 }
