@@ -10,6 +10,7 @@ import Team from './components/team/Team.jsx'
 import Price from './components/pricing/Price.jsx'
 import Blog from './components/blog/Blog.jsx'
 import Contact from './components/contact/Contact.jsx'
+import Footer from './components/common/title/footer/Footer.jsx'
 
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
           <Route path="/journal" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
